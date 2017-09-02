@@ -9,7 +9,7 @@ var lessMiddleware = require('less-middleware');
 const index = require('./server/routes/index');
 const users = require('./server/routes/users');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'server/views'));
